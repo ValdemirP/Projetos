@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou aumente <br>
+    e diminua o tamanha da imagem.</p>
+    <picture>
+    <source media="(max-width:750px )" srcset="imagens/pequena.png" type="image/png">
+    <source media="(max-width:1050px )" srcset="imagens/media.png" type="image/png">
+    <img src="imagens/Grande.png" alt="foto flexivel">
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <p>Vamos reproduzir audio em html 5 </p>
+    <audio preload="metadata" autoplay controls loop>
+    <source src="media/musica you.mp3" type="audio/mpeg">
+    </audio>
+    <h1>Videos com html 5 </h1>
+    <p>Esse video esta hospedado no meu propio servidor</p>
+    <video controls width="560" poster="imagens/pequena.png">
+        <source src="media/meu-video.mp4" type="video/mp4">
+
+
+    </video>
+
+    <h1>Videos de links externos</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/J2MPxIQZsn4" 
+    title="Hino do bahia" frameborder="39" allow="accelerometer; autoplay; 
+    clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+    
+    
+    
+    
+
+
+
+    
+</body>
+</html>

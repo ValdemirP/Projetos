@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+
+
+body{    background-color: lightgreen;
+}
+h1{
+   text-align: justify;
+   background-color: lightskyblue;
+   font-style: oblique;
+   font-family: 'Courier New', Courier, monospace;
+}
+h2{
+    color: maroon;
+    font-variant: small-caps;
+    text-align: start;
+}
+p{
+    text-align: justify;
+   
+}

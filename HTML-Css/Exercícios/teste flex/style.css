@@ -1,0 +1,69 @@
+section{
+    display: flex;
+    background-color: rgb(145, 139, 142);
+    width: 838px;
+    border-radius: 10px;
+    border:1px solid black;
+    box-sizing: content-box;
+    
+    
+   
+   
+   
+    
+}
+
+
+.encurtar{
+    
+    padding: 0;
+    text-align: justify;
+    text-indent: 30px;
+    margin: 5px;
+}
+
+img{
+    background-position:center;
+    width: 400px;
+    height: 568px;
+    margin-right: 5px;
+    
+    
+    
+
+}
+
+.marsem{
+    
+    
+    padding: 0;
+   
+  
+    
+    
+    
+}
+
+.sinopse{
+    height: 423px;
+    width: 417px;
+    font-family: sans-serif;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+
+
+}
+.carac{
+    height: 127px;
+    width: 174px;
+    margin-top: 0px;
+    margin-right: 20px;
+    
+}
+   
+   
+   
+    
+   
+
+    

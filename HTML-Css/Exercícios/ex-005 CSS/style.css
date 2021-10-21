@@ -1,0 +1,41 @@
+@charset  "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Walter+Turncoat&display=swap');
+@font-face {
+    font-family:'love';
+    src: url(  'The Cononut Love.ttf') format('truetype');
+}
+
+body{
+    background-image:linear-gradient(to right, #D4C2E1,#B27DDB);
+
+
+}
+main{
+    background-color: white;
+    width: 750px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px black;
+}
+h1{
+    text-align: center;
+    color: #4B345C;
+    text-shadow: 1px 0px 0px black;
+    font-family: 'love';
+}
+h2{
+    color: #7C8C32;
+    font-family: 'Walter Turncoat', 'cursive';
+}
+p{
+    text-align: justify;
+    font-family: 'PT Serif', serif;
+}
+picture{
+  image-resolution: 20px;
+  border-image: auto;
+  image-orientation: center;
+}

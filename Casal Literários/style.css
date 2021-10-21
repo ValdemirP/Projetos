@@ -1,0 +1,200 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Butterfly+Kids&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Ruge+Boogie&display=swap');
+  
+
+
+  main{
+      display: flex;
+      
+  }
+
+
+  body{
+      background-image: url("fotos\ e\ papeis\ de\ parede/fundodesites/");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      
+      
+  }
+  
+  
+  
+  
+  .topo{
+      text-align: center;
+     
+  }
+  
+  header>h1{
+      background-color: #cce0ec;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Ruge Boogie','cursive';
+      font-size: 9em;
+      margin-top: 0px;
+      height: 219px;
+      padding-top: 50px;
+      color: rgb(20, 19, 19);
+      background-image:url("fotos\ e\ papeis\ de\ parede/fundodesites/fundoamor.jpg");
+      background-repeat:no-repeat;
+      background-size:cover ;
+      
+      border-radius: 5px 0 5px 0;
+      
+      
+      
+  
+      
+     
+      
+     }
+  
+  
+  header>nav{
+  
+    
+     
+     
+  }
+  
+  a{
+   text-decoration: black;
+   border-radius:1em;
+  }
+  
+  .nav:hover{
+      background-color: #f0f0f0;
+      transition: 0.5s;
+      text-transform: uppercase;
+     
+  }
+  
+  h1:hover{
+      text-shadow: 0 0 8px rgb(253, 249, 249);
+      transition: 1s;
+  }
+  
+  
+  .tmenus{
+     
+      display: flex;
+      
+      justify-content: space-around;
+      font-size: 1.5em;
+      margin-left: 110px;
+      margin-right: 110px;
+      align-content: flex-end;
+      
+      margin-top: -85px;
+      }
+
+
+.marsem{
+  height: 1000px;
+  width: 800px;
+  background-color: white;
+  margin: auto;
+  margin-top: 40px ;
+  border-radius: 6px;
+  text-align: center;
+  color: #3c0a8dea;
+  box-shadow : inset 0px 21px 27px #feb69e;
+  margin-left: 155px;
+  
+  
+  
+   
+   
+}
+
+section>p{
+    margin: 0px;
+}
+    
+hr{
+    margin: 0px;
+}
+
+
+div>img{
+    height: 429px;
+    width: 306px;
+    margin: 10px;
+    
+    
+}
+
+.foto1{
+    display: flex;
+}
+
+.sinopse{
+    text-align: justify;
+    color: black;
+    margin-right: 10px;
+    
+}
+
+section>h2{
+    font-family: 'Caveat', 'cursive';
+    font-size: 2.3em;
+}
+
+
+
+.midias{
+    
+    height: 200px;
+    width: 300px;
+    border: 1px solid black;
+    margin-top: 50px;
+    
+    
+
+
+}
+
+.sidebar{
+    height:1000px;
+    width:400px;
+    
+    background-color: white;
+  
+  margin-top: 40px ;
+  
+  border-radius: 6px;
+  text-align: center;
+  color: #3c0a8dea;
+  box-shadow : inset 0px 21px 27px #feb69e;
+  
+  
+}
+
+.minibar{
+    height: 40%;
+    
+
+    width: 100%;
+
+
+}
+
+
+
+
+.foto>a>img{
+    height: 54px;
+    margin: 20px;
+    vertical-align: baseline;
+   
+
+}
+
+.minibar1{
+    
+}

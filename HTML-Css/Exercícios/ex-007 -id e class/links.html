@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links personalizados</title>
+    <style>
+    a{
+     text-decoration: none;
+     color: violet;
+    }
+
+    a:hover{
+        color: blue;
+        text-decoration: underline;
+    }
+    a::after{
+        content: "[LINK]";
+        
+        
+        }
+    a::before{
+        content: "[LINK]";
+    }    
+
+    a:active{
+        color: yellowgreen;
+    }
+
+    a:visited
+
+
+    </style>
+
+
+
+</head>
+<body>
+    <h2>Links personalizados</h2>
+    <ul type='square'>
+        <li><a href="">Canal Youtube</a></li>
+        <li><a href="">Twiter</a></li>
+        <li><a href="">Linkedin</a></li>
+    </ul>
+    
+</body>
+</html>
